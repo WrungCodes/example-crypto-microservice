@@ -1,0 +1,47 @@
+{
+  "name": "crypto-microservice",
+  "version": "1.0.0",
+  "description": " (micro)service for handling crypto functionalities",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "http:start": "node ./bin/http-start.js",
+    "test": "mocha ./src/test --recursive"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "danieltosinfayemi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bee-queue": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "bull": "^3.23.0",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fireblocks-sdk": "^1.5.21",
+    "install": "^0.13.0",
+    "joi": "^17.4.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "redis": "^3.1.2",
+    "redis-cli": "^2.1.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0",
+    "nyc": "^15.1.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
