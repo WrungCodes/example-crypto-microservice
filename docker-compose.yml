@@ -14,7 +14,7 @@ services:
   # Redis for messaging queue and caching
   queue:
     container_name: queue
-    hostname: payercoin_queue
+    hostname: queue
     image: redis:alpine
     ports:
       - "6379:6379"
@@ -29,8 +29,8 @@ services:
   #     bash -c "sleep 15; /usr/bin/supervisord"
   #   restart: on-failure
   #   depends_on:
-  #     - payercoin_database
-  #     - payercoin_queue
+  #     - database
+  #     - queue
   #   ports:
   #     - "4000:8000"
   #   env_file:

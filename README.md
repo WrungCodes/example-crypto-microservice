@@ -117,4 +117,4 @@ Download docker & docker compose
 
 to use `sequelize-cli` change directory to src/database/sequelize 
 
-docker exec -it payercoin_queue redis-cli FLUSHALL  // reset redis database
+docker exec -it queue redis-cli FLUSHALL  // reset redis database

@@ -5,7 +5,7 @@ const validate = require("../../core/domain/schema/validator");
 const Client = require('../../core/domain/Client')
 
 const test_data = {
-    name: 'main payercoin service',
+    name: 'main service',
     uuid: 'wydbfir4msof9d0an4htiqlricn49t',
     email: 'danieltosinfayemi@gmail.com',
     api_key: 'crypto-service-hw23844i303-3yh3b3u3n3',
